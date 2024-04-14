@@ -1,0 +1,26 @@
+{
+  "name": "myai_uniapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-ui": "^1.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happyandlucky66/myai-uniapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happyandlucky66/myai-uniapp/issues"
+  },
+  "homepage": "https://github.com/happyandlucky66/myai-uniapp#readme"
+}
