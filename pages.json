@@ -1,0 +1,150 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/planet/planet",
+			"style" : 
+			{
+				"navigationBarTitleText" : "星球",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/aiCreate/aiCreate",
+			"style" : 
+			{
+				"navigationBarTitleText" : "AI创作",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/aiPlaza/aiPlaza",
+			"style" : 
+			{
+				"navigationBarTitleText" : "AI广场",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/writerDetail/writerDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "作者",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/mySettings/mySettings",
+			"style" : 
+			{
+				"navigationBarTitleText" : "设置",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/aiAttention/aiAttention",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/aiAll/aiAll",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/aiText/aiText",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/aiPicture/aiPicture",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/register/register",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path": "pages/taskList/taskList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+	    "color": "#8a8a8a",
+	    "selectedColor": "#01B27D",
+	    "backgroundColor": "#fff",
+	    "position": "bottom",
+	    "borderStyle": "black",
+	    "list": [
+	      {
+	        "pagePath": "pages/planet/planet",
+	        "text": "星球",
+	        "iconPath": "./static/icon/_home.png",
+	        "selectedIconPath": "./static/icon/home.png"
+	      },
+	      {
+	        "pagePath": "pages/aiCreate/aiCreate",
+	        "text": "AI创作",
+	        "iconPath": "./static/icon/_arrow.png",
+	        "selectedIconPath": "./static/icon/arrow.png"
+	      },
+	      {
+	        "pagePath": "pages/aiPlaza/aiPlaza",
+	        "text": "AI广场",
+	        "iconPath": "./static/icon/_detail.png",
+	        "selectedIconPath": "./static/icon/detail.png"
+	      },
+	      {
+	        "pagePath": "pages/writerDetail/writerDetail",
+	        "text": "作者",
+	        "iconPath": "./static/icon/_my.png",
+	        "selectedIconPath": "./static/icon/my.png"
+	      },
+	      {
+	        "pagePath": "pages/mySettings/mySettings",
+	        "text": "设置",
+	        "iconPath": "./static/icon/_settings.png",
+	        "selectedIconPath": "./static/icon/settings.png"
+	      }
+	    ]
+	  }
+}
