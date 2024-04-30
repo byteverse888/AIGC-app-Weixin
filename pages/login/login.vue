@@ -24,6 +24,7 @@
                   class="uni-input-border"
                   placeholder="密码"
                 />
+				</view>
               </view>
             </form>
             <view>
